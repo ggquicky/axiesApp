@@ -1,0 +1,1061 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mainApp{
+    padding: 0px 255px;
+    background-color: #14141F;
+    color: white;
+}
+
+.navBar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    column-gap: 5%;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logoName{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.navBarmid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    column-gap: 6%;
+
+}
+.navMenu{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+
+    text-transform: capitalize;
+}
+
+.navBarSearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+}
+/*  background gradiente */
+.gradient{
+    top: 80px;
+    left: 0px;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background: radial-gradient(30.8% 30.8% at 57.79% 54.71%, rgba(43, 24, 103, 0.24) 0%, rgba(56, 35, 131, 0.24) 48.71%, rgba(69, 40, 150, 0.24) 78.16%, rgba(118, 36, 142, 0.24) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(150px);
+}
+
+.gposition2{
+    left: 70%;
+    top:518px;
+    width: 315px;
+    height: 194px;
+}
+.circleGrandient{
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(216.56deg, #E250E5 5.32%, #4B50E6 94.32%);
+}
+
+.x1{
+    top:215px;
+    left: 1150px;
+    width: 16px;
+    height: 16px;
+
+}
+.x2{
+    top:245px;
+    left: 82%;
+    width:  68px;
+    height: 68px;
+}
+.x3{
+    top:495px;
+    left: 76%;
+    width:  32px;
+    height: 32px;
+}
+
+.x0{
+    top:469px;
+    left: 1100px;
+    width: 48px;
+    height: 48px;
+}
+.x4{
+    top:530px;
+    left: 683px;
+    width: 22px;
+    height: 22px;
+}
+.circleEmpty{
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border:1px solid #6A1AB7;
+}
+
+.x5{
+    top:245px;
+    left: 836px;
+    width:  50px;
+    height: 50px;
+}
+.x6{
+    top:125px;
+    left: 85%;
+    width:  50px;
+    height: 50px;
+}
+
+.Header{
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    padding: 140px 0px;
+
+}
+.headerFonts{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+}
+
+
+.leftSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.righSide{
+    width: 50%;
+    align-self: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 147px;
+    height: 56px;
+    justify-content: center;
+    border: 1.5px solid #FFFFFF;
+    align-items: center;
+    border-radius: 30px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    column-gap: 6px;
+}
+
+.headerBtn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.btnPrimary{
+    background: #FFFFFF;
+    color: black;
+}
+.btnSecondary{
+    color: white;
+    background: none;
+}
+.btnWidth{
+    width: 120px;
+    height: 48px;
+}
+
+.liveAuctions{
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.liveAuctionsMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.liveHeader{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+}
+.liveOp{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 4px solid ;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.carruselItems{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    overflow: hidden;
+}
+
+.auctionTemplate{
+    width: 330px;
+    height: 442px;
+    background: #343444;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.auctionImage{
+    width: 290px;
+    height: 290px;
+    background: #7A798A;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.likeBtn{
+    border:none;
+    position: absolute;
+    width: 64px;
+    height: 28px;
+    left: 214px;
+    top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #14141F;
+    border-radius: 10px;
+    column-gap: 5px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-transform: uppercase;
+}
+.timerAd{
+    position: absolute;
+    width: 151px;
+    height: 36px;
+    left: 69px;
+    top: 246px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    background: #14141F;
+    border-radius: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.carruselNav{
+    display: flex;
+    flex-direction: row;
+    height: 16px;
+    width: auto;
+    column-gap: 12px;
+    margin-inline: auto;
+    align-items: baseline;
+}
+
+.rightBtn{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.leftBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.auctionHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+}
+.imgName{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.btnBsc{
+    padding: 2px 10px;
+    background: #5142FC;
+    border-radius: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 49px;
+    height: 24px;
+}
+.auctionDescription{
+    width: 290px;
+    display: grid;
+    column-gap: 8px;
+    row-gap: 2px;
+    grid-template-columns: 54px auto 72px;
+    grid-template-rows: auto auto;
+    grid-template-areas: "AutorPhoto creatorText bidText "
+                "AutorPhoto autorName price"
+;
+}
+
+.AutorPhoto{
+    grid-area: AutorPhoto;
+    width: 52px;
+    height: 52px;
+    background: #7A798A;
+    border-radius: 10px;
+
+}
+.creatorText{
+    grid-area: creatorText;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8A8AA0;
+
+}
+.autorName{
+    grid-area: autorName;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #EBEBEB;
+
+}
+.bidText{
+    grid-area: bidText;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8A8AA0;
+
+
+}
+.todayTemplate{
+    width: 330px;
+    height: 504px;
+    background: #343444;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.price{
+    grid-area: price;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    vertical-align: bottom;
+}
+.btnBid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* column-gap: 10px; */
+}
+.btnToday{
+    width: 142px;
+    height: 46px;
+    padding: 12px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    /* white-2 */
+
+    color: #8A8AA0;
+}
+.borderbtn{
+    border: 1px solid #5142FC;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    text-transform: capitalize;
+}
+
+.topSeller{
+    height: 268px;
+    display: flex;
+ flex-direction: column;
+    row-gap: 40px;
+}
+
+.topSellerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topSellerHbtn{
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    justify-content: space-between;
+}
+.topSellerBtn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5142FC;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sellerbg{
+    background-color: white;
+}
+
+.topSellerItem{
+    width: 120px;
+    height: 187px;
+
+}
+.topSellerImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+    background-color: #7A798A;
+    position: relative;
+}
+.roundimg{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+.Checkbox{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 26px;
+    height: 26px;
+    background-color: #5142FC;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.topSellerDescription{
+    display: flex;
+    flex-direction: column;
+}
+.topSellerText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    text-align: center;
+    text-transform: capitalize;
+}
+.topSellerPrice{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+    text-align: center;
+}
+.todayPicks{
+    height: 1226px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+
+.todayPicksGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 44px;
+}
+.popularMainMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.popularCollection{
+    height: 476px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 40px;
+}
+.popularTemplate{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 394px;
+    background-color: #343444;
+    row-gap: 14px;
+    border-radius: 10px;
+}
+.pouplarHeaderOp{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    border-bottom: 4px solid ;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.popularHeaderText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+}
+.popularheader{
+
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 66px 66px auto 66px ;
+    grid-template-rows: auto;
+    grid-template-areas: 'box1 collection collection popularlike'
+                    'box1 createby popularautor popularautor';
+    align-items: center;
+}
+
+
+.box1{
+    grid-area: box1;
+    background-color: #7A798A;
+    height: 64px;
+    width: 64px;
+    border-radius: 21px;
+    position: relative;
+
+
+}
+.Checkbox1{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #5142FC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.popularlike{
+    grid-area: popularlike;
+    background: #14141F;
+    border-radius: 10px;
+    width: 64px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection{
+    grid-area: collection;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.createby{
+    grid-area: createby;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8A8AA0;
+}
+.popularautor{
+    grid-area: popularautor;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+}
+.popularCollectionRow{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.popularImgContainer{
+    height: 272px;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto ;
+    grid-template-areas: 'cont0 cont1 cont2'
+                        'cont0 cont3 cont3';
+}
+.box{
+    background-color: #7A798A;
+    border-radius: 10px;
+    object-fit: cover  ;
+    width: 100%;
+    height: 100%;
+}
+.cont0{
+    grid-area: cont0;
+}
+.cont1{
+    grid-area: cont1;
+}
+.cont2{
+    grid-area: cont2;
+}
+.cont3{
+    grid-area: cont3;
+}
+
+.CSNFT{
+    height: 438px;
+}
+.CSNFTmain{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+}
+
+
+.CSItems{
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.CSNFTHeader{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    text-transform: capitalize;
+}
+.CSNFTdescription{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+}
+.CScontainer{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    height: 321px;
+    column-gap: 40px;
+}
+.footer{
+    height: 372px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 140px;
+    align-items: baseline;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.submenu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.logofooter{
+    width: 245px;
+}
+.iconmenu{
+    display: flex;
+    column-gap: 12px;
+}
+.variableHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 216px;
+    width: 100%;
+    background:rgb(20, 20, 31,0.70);
+}
+.loginMain{
+    height: 716px;
+}
+
+.loginMainText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+.loginNav{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+
+    /* white-2 */
+
+    color: #8A8AA0;
+}
+
+
+
+.loginContainer{
+    background-color: #14141F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 690px;
+    text-align: center;
+    padding: 80px 0px;
+    height: 100%;
+    margin-inline: auto;
+}
+.loginM1{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.loginS1::after{
+    display: block;
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 50%;
+    border-bottom: 2px solid #343444;
+    width: 38%;
+}
+.loginS1::before{
+    display: block;
+    position: absolute;
+    content: " ";
+    right: 0;
+    top: 50%;
+    border-bottom: 2px solid #343444;
+    width: 38%;
+}
+.loginS1{
+    position: relative;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    background-color: #14141F;
+    text-align: center;
+
+    /* Secondary */
+
+    color: #EBEBEB;
+}
+.loginBtnMenu{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+}
+.loginInput{
+    -webkit-appearance: none;
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #14141F;
+    width: 690px;
+    height: 48px;
+    padding: 13px 0px 13px 20px;
+    color: white;
+}
+.loginBtn{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 56px;
+    background-color: #14141F;
+    color: white;
+    height: 54px;
+    width: 100%;
+}
+.bluebtn{
+    display: flex;
+    border: 2px solid #5142FC;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.loginOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkboxLogin{
+
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #14141F ;
+}
+.rememberMe{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.ForgotPass{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.loginHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createitemMain{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    height: 922px;
+    justify-content: center;
+}
+.uploadfile{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.uploadfilecontainer{
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 102px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.uploadbtn{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 152px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.methodBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.radioBtn{
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    background-color: #343444;
+}
+
+.radiorm{
+    -webkit-appearance: none;
+}
+.creatitemInput{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 356px;
+
+}
+.createitemdetails{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    width: 100%;
+}
+.InputDetatil{
+    width: 100%;
+    -webkit-appearance: none;
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #14141F;
+
+    height: 48px;
+    padding: 13px 0px 13px 20px;
+}
+.hiddenbtn{
+    display: none;
+}
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.heartfill{
+    stroke: #5142FC;
+}
